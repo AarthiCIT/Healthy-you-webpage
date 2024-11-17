@@ -53,42 +53,42 @@ nav ul li a:hover {
   background-color: #575757;
 }
 
-/* Hero Section */
-.hero {
-  background-color: #e8f5e9;
+/* About Us Section */
+#about {
+  padding: 40px 20px;
   text-align: center;
-  padding: 50px 20px;
+  background-color: #e8f5e9;
 }
 
-.hero h2 {
+#about h2 {
   font-size: 2.5rem;
   color: #28a745;
 }
 
-.hero p {
+#about p {
   font-size: 1.2rem;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
-/* Services Section */
-#services {
+/* Workouts Section */
+#workouts {
   padding: 40px 20px;
   text-align: center;
 }
 
-#services h2 {
+#workouts h2 {
   font-size: 2rem;
   color: #28a745;
   margin-bottom: 20px;
 }
 
-.service-container {
+.workout-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.service {
+.workout {
   background-color: white;
   padding: 20px;
   margin: 20px;
@@ -98,19 +98,71 @@ nav ul li a:hover {
   text-align: center;
 }
 
-.service img {
-  max-width: 100px;
-  margin-bottom: 15px;
-}
-
-.service h3 {
+.workout h3 {
   font-size: 1.5rem;
   color: #333;
 }
 
-.service p {
+.workout p {
   font-size: 1rem;
   color: #555;
+}
+
+/* Nutrition Section */
+#nutrition {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #e8f5e9;
+}
+
+#nutrition h2 {
+  font-size: 2rem;
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+.nutrition-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.nutrition {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.nutrition h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.nutrition p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Motivation Section */
+#motivation {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f4f4f9;
+}
+
+#motivation h2 {
+  font-size: 2rem;
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+#motivation p {
+  font-size: 1.2rem;
+  margin-top: 10px;
 }
 
 /* Contact Section */
